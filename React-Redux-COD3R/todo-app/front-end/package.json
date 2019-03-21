@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --progress --colors --inline --hot",
+    "production": "webpack --progress -p"
   },
-  "author": "",
+  "author": "Paulo Tarcisio & Guia-do-Dev-Recruta",
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.15.3",

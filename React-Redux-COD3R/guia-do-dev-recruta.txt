@@ -1,0 +1,28 @@
+﻿
+
+How to do it with just the command line
+1 >>>>>>  Create a new repository on GitHub and initialize it with a README file
+
+2 >>>>>>  Create a folder on your local machine
+
+3 >>>>>>  Open terminal and move to that folder
+
+$ cd FOLDER
+4 >>>>>>  Add the remote URL as origin
+$ git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+
+
+5 >>>>>> Now using the pull command, you can ‘pull’ down the README file onto the local folder
+//Sincronizar com repositório remoto
+a. $ git pull origin master
+
+6. Add your current files in the local folder to the staging area
+a. $ git add –-all
+
+
+7. Commit your changes
+$ git commit -m "your commit message e.g. First commit"
+
+8. Push your changes to the master branch
+$ git push origin master
+
