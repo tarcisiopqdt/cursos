@@ -9,7 +9,7 @@ server.use(bodyParser.json())
 server.use(allowCors)
 
 server.listen(port, function(){
-    console.log("Server online in http://localhost:"+port)
+    console.log("API online in http://localhost:"+port+"/api/todos")
 })
 
 module.exports = server
